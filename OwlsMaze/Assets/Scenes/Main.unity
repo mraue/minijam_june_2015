@@ -1028,7 +1028,6 @@ GameObject:
   - 114: {fileID: 2018480194}
   - 114: {fileID: 2018480196}
   - 114: {fileID: 2018480203}
-  - 114: {fileID: 2018480197}
   - 114: {fileID: 2018480200}
   - 114: {fileID: 2018480199}
   - 114: {fileID: 2018480202}
@@ -1167,6 +1166,7 @@ GameObject:
   - 114: {fileID: 2018480333}
   - 114: {fileID: 2018480336}
   - 114: {fileID: 2018480337}
+  - 114: {fileID: 2018480197}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1197,9 +1197,9 @@ MonoBehaviour:
     y: -582.773193
     width: 1914.72998
     height: 1694.39795
-  selectedBlock: {fileID: 2018480311}
+  selectedBlock: {fileID: 2018480196}
   selectedCommands:
-  - {fileID: 2018480316}
+  - {fileID: 2018480197}
   variables: []
   description: 
   stepPause: 0
@@ -1293,21 +1293,23 @@ MonoBehaviour:
   - {fileID: 2018480197}
 --- !u!114 &2018480197
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 4
+  itemId: 153
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
+  text: START
+  description: 
   targetBlock: {fileID: 2018480195}
-  callMode: 0
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
 --- !u!4 &2018480198
 Transform:
   m_ObjectHideFlags: 0
