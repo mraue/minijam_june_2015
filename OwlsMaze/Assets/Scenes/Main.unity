@@ -605,7 +605,7 @@ GameObject:
   - 4: {fileID: 704865392}
   - 212: {fileID: 704865391}
   m_Layer: 0
-  m_Name: background_indoors_small
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -635,7 +635,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ff2db672cf81142bdafc27b9673b3a16, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfa19529300254af0944798bf0359b56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &704865392
 Transform:
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 7.15749836
+  viewSize: 9.80177879
   primaryAspectRatio: {x: 4, y: 3}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!4 &1178216873
@@ -751,7 +751,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1178216871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .629999995, y: .550000012, z: 0}
+  m_LocalPosition: {x: .879999995, y: .49000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -862,7 +862,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1845920794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0500000007, y: 1.79999995, z: 0}
+  m_LocalPosition: {x: -7.6500001, y: 7.1500001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -927,7 +927,8 @@ MonoBehaviour:
     width: 1456
     height: 1183
   selectedBlock: {fileID: 2018480201}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2018480206}
   variables: []
   description: 
   stepPause: 0
@@ -1171,7 +1172,7 @@ MonoBehaviour:
   storyText: We are keeper. We watch over the wanderers at night.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1198,7 +1199,7 @@ MonoBehaviour:
     time.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1224,7 +1225,7 @@ MonoBehaviour:
   storyText: Maybe there are other, maybe there are not. We don't know.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1251,7 +1252,7 @@ MonoBehaviour:
     Sometimes we fly silently above their bowed heads, glooming shadows in the distance.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
