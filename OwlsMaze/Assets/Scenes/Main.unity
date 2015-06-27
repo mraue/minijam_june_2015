@@ -1166,6 +1166,7 @@ GameObject:
   - 114: {fileID: 2018480334}
   - 114: {fileID: 2018480333}
   - 114: {fileID: 2018480336}
+  - 114: {fileID: 2018480337}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1185,20 +1186,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 250.143066, y: -186.359161}
+  scrollPos: {x: 82.428894, y: 204.1064}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: .829035044
+  zoom: .83003521
   scrollViewRect:
     serializedVersion: 2
     x: -612.515869
     y: -582.773193
     width: 1914.72998
     height: 1694.39795
-  selectedBlock: {fileID: 2018480274}
+  selectedBlock: {fileID: 2018480311}
   selectedCommands:
-  - {fileID: 2018480288}
+  - {fileID: 2018480316}
   variables: []
   description: 
   stepPause: 0
@@ -1664,7 +1665,7 @@ MonoBehaviour:
   itemId: 19
   errorMessage: 
   indentLevel: 0
-  text: He had his bowed ...
+  text: His head was bowed ...
   description: 
   targetBlock: {fileID: 2018480211}
   hideIfVisited: 0
@@ -3543,8 +3544,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "A loud shout was heard throughout the valley: \u201EThe maze is mine!\u201C
-    and the old man looked puzzled at a fully armored worrier running at him. The
-    puzzlement didn't last long though and his final thoughts was how he now forever
+    and the old man looked puzzled at a warrior in full armor running at him. The
+    puzzlement didn't last long though and his final thoughts were how he now forever
     lost the chance of entering the maze."
   description: 
   character: {fileID: 2036815776}
@@ -3715,7 +3716,7 @@ MonoBehaviour:
   itemId: 112
   errorMessage: 
   indentLevel: 0
-  storyText: '"You time has come, there is no way out"'
+  storyText: '"Your time has come, there is no way out"'
   description: 
   character: {fileID: 1964061793}
   portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
@@ -3741,7 +3742,7 @@ MonoBehaviour:
   itemId: 114
   errorMessage: 
   indentLevel: 0
-  storyText: The cat starred back, not blinking an eye.
+  storyText: The cat stared back, not blinking an eye.
   description: 
   character: {fileID: 1964061793}
   portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
@@ -3793,7 +3794,7 @@ MonoBehaviour:
   itemId: 115
   errorMessage: 
   indentLevel: 0
-  storyText: We starred at the cat for a long time.
+  storyText: We stared at the cat for a long time.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3978,8 +3979,8 @@ MonoBehaviour:
   itemId: 125
   errorMessage: 
   indentLevel: 0
-  storyText: Looking around it saw that it would be difficult to navigate that mace,
-    espacially as propably every corner had to be examined.
+  storyText: Looking around it saw that it would be difficult to navigate that maze,
+    especially as probably every corner had to be examined.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -4005,9 +4006,9 @@ MonoBehaviour:
   itemId: 124
   errorMessage: 
   indentLevel: 0
-  storyText: The child moved on. She was told that was here its toys were hidden.
-    Little did it know that its siblings planned to get rid of it. To much envy, simple
-    mischief, who are we to know?
+  storyText: The child moved on. It was told its toys were hidden here. Little did
+    it know that its siblings planned to get rid of it. Too much envy, simple mischief,
+    who are we to know?
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -4131,8 +4132,8 @@ MonoBehaviour:
   itemId: 126
   errorMessage: 
   indentLevel: 0
-  text: '... so it took its leftover bread and teared little peaces from it, leaving
-    some every corner it finds.'
+  text: '... so it took some old bread and teared little peaces from it, leaving some
+    every corner it finds.'
   description: 
   targetBlock: {fileID: 2018480314}
   hideIfVisited: 0
@@ -4151,7 +4152,7 @@ MonoBehaviour:
   itemId: 130
   errorMessage: 
   indentLevel: 0
-  text: '... so it teared a thread from its trousers and tight it to a root near the
+  text: '... so it teared a thread from its trousers and tied it to a root near the
     entrance.'
   description: 
   targetBlock: {fileID: 2018480313}
@@ -4171,10 +4172,10 @@ MonoBehaviour:
   itemId: 131
   errorMessage: 
   indentLevel: 0
-  storyText: After a while it noticed a funny sounds from behind it. The Child slowly
-    turned around, only to scream im Horror. Thousands of fireants had followed the
-    breadcrump trail and catched up so fast that it hadn't stop screaming when they
-    cought up to it.
+  storyText: After a while it noticed a funny sound from behind it. The child slowly
+    turned around, only to scream in horror. Thousands of fireants had followed the
+    breadcrump trail and catched up so fast that it hadn't stopped screaming when
+    they caught up to it.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -4230,7 +4231,7 @@ MonoBehaviour:
   itemId: 132
   errorMessage: 
   indentLevel: 0
-  storyText: It didn't stop until its mouth and toung were eaten away by the tiny
+  storyText: It didn't stop until its mouth and tongue were eaten away by the tiny
     beasts.
   description: 
   character: {fileID: 2036815776}
@@ -4330,9 +4331,9 @@ MonoBehaviour:
   itemId: 136
   errorMessage: 
   indentLevel: 0
-  storyText: The child hadn't yet managed to get even a quarter of the mazes rooms
-    when it ran out of trousers. It was already deep in the maze, further than most
-    and that was when we finaly spoke to it.
+  storyText: The child hadn't yet managed to get even a quarter of the maze's rooms
+    when it ran out of clothes. it was already deep in the maze, further than most
+    and that was when we finally spoke to it.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -4359,7 +4360,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: '"Turn around child! Follow the string you left, don''t go right, don''t
-    go left. We are the olws of old, known to be wise."'
+    go left. We are the owls of old, known to be wise."'
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -4457,6 +4458,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2018480331}
+  - {fileID: 2018480337}
   - {fileID: 2018480332}
   - {fileID: 2018480333}
   - {fileID: 2018480335}
@@ -4514,9 +4516,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "\u201EIf you stay you'll fade, forgotten like everyone who ever entered,
-    we cannot tell you what will happen to you?\u201C Yet the child made no move.
-    Than suddenly it went on, deeper into the maze than even before, until we lost
-    sight.\n\n"
+    we cannot tell you what will happen to you.\u201C Yet the child made no move."
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -4629,7 +4629,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &2018480336
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4644,6 +4644,35 @@ MonoBehaviour:
   storyText: We don't know what happened between the two of them, but the last expression
     on his face was one of relief, visible only briefly as the light faded with her
     leaving this plane.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 152
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Then, suddenly, it went on, deeper into the maze than even before, until
+    we lost sight.
+
+'
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
