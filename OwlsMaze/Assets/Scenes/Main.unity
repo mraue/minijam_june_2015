@@ -346,7 +346,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &274784817
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,7 +567,7 @@ Transform:
   m_Children:
   - {fileID: 29154228}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!114 &509707872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +595,60 @@ MonoBehaviour:
   - {fileID: 346664309}
   - {fileID: 1102686585}
   charactersOnStage: []
+--- !u!1 &704865390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 704865392}
+  - 212: {fileID: 704865391}
+  m_Layer: 0
+  m_Name: background_indoors_small
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &704865391
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 704865390}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ff2db672cf81142bdafc27b9673b3a16, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &704865392
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 704865390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .439999998, y: .550000012, z: 0}
+  m_LocalScale: {x: 1.70392072, y: 1.70392072, z: 1.70392072}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &1102686584
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +713,49 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1102686584}
+--- !u!1 &1178216871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1178216873}
+  - 114: {fileID: 1178216872}
+  m_Layer: 0
+  m_Name: View_Intro_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1178216872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178216871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewSize: 7.15749836
+  primaryAspectRatio: {x: 4, y: 3}
+  secondaryAspectRatio: {x: 2, y: 1}
+--- !u!4 &1178216873
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178216871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .629999995, y: .550000012, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!1 &1371988422
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,7 +783,7 @@ Transform:
   m_Children:
   - {fileID: 2036815775}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
 --- !u!1 &1469531776
 GameObject:
   m_ObjectHideFlags: 1
@@ -727,6 +824,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &1845920794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1845920796}
+  - 114: {fileID: 1845920795}
+  m_Layer: 0
+  m_Name: View_Intro_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1845920795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845920794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewSize: 4.64704323
+  primaryAspectRatio: {x: 4, y: 3}
+  secondaryAspectRatio: {x: 2, y: 1}
+--- !u!4 &1845920796
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845920794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0500000007, y: 1.79999995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1 &2018480192
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +888,14 @@ GameObject:
   - 114: {fileID: 2018480205}
   - 114: {fileID: 2018480204}
   - 114: {fileID: 2018480206}
+  - 114: {fileID: 2018480207}
+  - 114: {fileID: 2018480208}
+  - 114: {fileID: 2018480210}
+  - 114: {fileID: 2018480209}
+  - 114: {fileID: 2018480214}
+  - 114: {fileID: 2018480213}
+  - 114: {fileID: 2018480212}
+  - 114: {fileID: 2018480211}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -776,11 +924,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: -360
     y: -350
-    width: 1349
+    width: 1456
     height: 1183
   selectedBlock: {fileID: 2018480201}
-  selectedCommands:
-  - {fileID: 2018480204}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -841,6 +988,8 @@ MonoBehaviour:
   - {fileID: 2018480200}
   - {fileID: 2018480199}
   - {fileID: 2018480202}
+  - {fileID: 2018480214}
+  - {fileID: 2018480213}
 --- !u!114 &2018480196
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -863,6 +1012,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2018480203}
   commandList:
+  - {fileID: 2018480210}
+  - {fileID: 2018480209}
+  - {fileID: 2018480208}
   - {fileID: 2018480197}
 --- !u!114 &2018480197
 MonoBehaviour:
@@ -892,7 +1044,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
 --- !u!114 &2018480199
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -907,14 +1059,14 @@ MonoBehaviour:
   itemId: 6
   errorMessage: 
   indentLevel: 0
-  storyText: '... until today.'
+  storyText: until today.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
@@ -933,14 +1085,14 @@ MonoBehaviour:
   itemId: 5
   errorMessage: 
   indentLevel: 0
-  storyText: '... but we have never seen a wanderer twice ...'
+  storyText: but we have never seen a wanderer twice ...
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
@@ -968,8 +1120,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2018480205}
-  - {fileID: 2018480206}
   - {fileID: 2018480204}
+  - {fileID: 2018480207}
+  - {fileID: 2018480206}
 --- !u!114 &2018480202
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1003,7 +1156,7 @@ MonoBehaviour:
   parentBlock: {fileID: 2018480196}
 --- !u!114 &2018480204
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1015,9 +1168,7 @@ MonoBehaviour:
   itemId: 10
   errorMessage: 
   indentLevel: 0
-  storyText: We watch over the wanderers at night. Sometimes we whisper in their ears,
-    messages of hope, messages of despair. Sometimes we fly silently above their bowed
-    heads, glooming shadows in the distance.
+  storyText: We are keeper. We watch over the wanderers at night.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 0}
@@ -1031,7 +1182,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480205
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1043,8 +1194,8 @@ MonoBehaviour:
   itemId: 9
   errorMessage: 
   indentLevel: 0
-  storyText: We are OWL. We live here, in the maze. We have been here since the beginning
-    of time.
+  storyText: We are OWL. We live the maze. We have been here since the beginning of
+    time.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 0}
@@ -1058,7 +1209,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480206
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1082,6 +1233,172 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &2018480207
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  errorMessage: 
+  indentLevel: 0
+  storyText: Sometimes we whisper in their ears, messages of hope, messages of despair.
+    Sometimes we fly silently above their bowed heads, glooming shadows in the distance.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480208
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  errorMessage: 
+  indentLevel: 0
+  duration: 20
+  targetView: {fileID: 1845920795}
+  waitUntilFinished: 0
+--- !u!114 &2018480209
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  errorMessage: 
+  indentLevel: 0
+  duration: 3
+  fadeOut: 0
+  targetView: {fileID: 1178216872}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &2018480210
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  errorMessage: 
+  indentLevel: 0
+  duration: 0
+  fadeOut: 1
+  targetView: {fileID: 1178216872}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &2018480211
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 315
+    y: 309
+    width: 161
+    height: 40
+  itemId: 21
+  blockName: Head_Bowing_Guy_1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &2018480212
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 550
+    y: 308
+    width: 125
+    height: 40
+  itemId: 20
+  blockName: Banner_Girl_1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &2018480213
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  errorMessage: 
+  indentLevel: 0
+  text: He had his bowed ...
+  description: 
+  targetBlock: {fileID: 2018480211}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480214
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  errorMessage: 
+  indentLevel: 0
+  text: She carried a blue banner ...
+  description: 
+  targetBlock: {fileID: 2018480212}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
 --- !u!1 &2036815774
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: OWL
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: .207843155, g: .203921586, b: .223529428, a: 1}
   soundEffect: {fileID: 0}
   profileSprite: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   portraits:
