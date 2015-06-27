@@ -1167,6 +1167,10 @@ GameObject:
   - 114: {fileID: 2018480336}
   - 114: {fileID: 2018480337}
   - 114: {fileID: 2018480197}
+  - 114: {fileID: 2018480341}
+  - 114: {fileID: 2018480340}
+  - 114: {fileID: 2018480339}
+  - 114: {fileID: 2018480338}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1186,7 +1190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 82.428894, y: 204.1064}
+  scrollPos: {x: 147.486328, y: -234.42926}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -1197,9 +1201,9 @@ MonoBehaviour:
     y: -582.773193
     width: 1914.72998
     height: 1694.39795
-  selectedBlock: {fileID: 2018480196}
+  selectedBlock: {fileID: 2018480272}
   selectedCommands:
-  - {fileID: 2018480197}
+  - {fileID: 2018480279}
   variables: []
   description: 
   stepPause: 0
@@ -1257,13 +1261,17 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2018480194}
+  - {fileID: 2018480341}
+  - {fileID: 2018480339}
+  - {fileID: 2018480340}
+  - {fileID: 2018480338}
   - {fileID: 2018480200}
   - {fileID: 2018480199}
   - {fileID: 2018480202}
   - {fileID: 2018480214}
   - {fileID: 2018480213}
-  - {fileID: 2018480296}
   - {fileID: 2018480312}
+  - {fileID: 2018480296}
 --- !u!114 &2018480196
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1293,7 +1301,7 @@ MonoBehaviour:
   - {fileID: 2018480197}
 --- !u!114 &2018480197
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1885,7 +1893,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: She brought a crossbow, but her mind was sharp enough to counter every
-    threat enough.
+    threat she could possibly face.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3214,7 +3222,7 @@ MonoBehaviour:
   itemId: 90
   errorMessage: 
   indentLevel: 0
-  text: Option Text
+  text: he walked deeper into the dark parts of the maze.
   description: 
   targetBlock: {fileID: 2018480281}
   hideIfVisited: 0
@@ -4659,7 +4667,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480337
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4686,6 +4694,126 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &2018480338
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 157
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 2085024488}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2018480339
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 156
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 1190084855}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2018480340
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 155
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 1054471941}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2018480341
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 154
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 1964061793}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &2036815774
 GameObject:
   m_ObjectHideFlags: 0
