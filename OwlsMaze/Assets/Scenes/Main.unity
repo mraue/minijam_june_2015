@@ -231,7 +231,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
   m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 500, y: 849}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &44160279
 MonoBehaviour:
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -380,7 +380,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
   m_AnchoredPosition: {x: 449.999969, y: 200.000031}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 500, y: 849}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &274784819
 MonoBehaviour:
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -444,7 +444,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
   m_AnchoredPosition: {x: -1000, y: 200}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 500, y: 849}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &346664310
 MonoBehaviour:
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -508,7 +508,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
   m_AnchoredPosition: {x: -450, y: 200}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 500, y: 849}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &413302328
 MonoBehaviour:
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -682,7 +682,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
   m_AnchoredPosition: {x: 1000, y: 200}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 500, y: 849}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &1102686586
 MonoBehaviour:
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -896,6 +896,8 @@ GameObject:
   - 114: {fileID: 2018480213}
   - 114: {fileID: 2018480212}
   - 114: {fileID: 2018480211}
+  - 114: {fileID: 2018480216}
+  - 114: {fileID: 2018480215}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -919,16 +921,16 @@ MonoBehaviour:
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 1
+  zoom: .805988133
   scrollViewRect:
     serializedVersion: 2
     x: -360
     y: -350
     width: 1456
     height: 1183
-  selectedBlock: {fileID: 2018480201}
+  selectedBlock: {fileID: 2018480196}
   selectedCommands:
-  - {fileID: 2018480206}
+  - {fileID: 2018480208}
   variables: []
   description: 
   stepPause: 0
@@ -1120,10 +1122,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 2018480216}
   - {fileID: 2018480205}
   - {fileID: 2018480204}
   - {fileID: 2018480207}
   - {fileID: 2018480206}
+  - {fileID: 2018480215}
 --- !u!114 &2018480202
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1172,7 +1176,7 @@ MonoBehaviour:
   storyText: We are keeper. We watch over the wanderers at night.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1199,7 +1203,7 @@ MonoBehaviour:
     time.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1225,7 +1229,7 @@ MonoBehaviour:
   storyText: Maybe there are other, maybe there are not. We don't know.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1252,7 +1256,7 @@ MonoBehaviour:
     Sometimes we fly silently above their bowed heads, glooming shadows in the distance.
   description: 
   character: {fileID: 2036815776}
-  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1275,7 +1279,7 @@ MonoBehaviour:
   itemId: 15
   errorMessage: 
   indentLevel: 0
-  duration: 20
+  duration: 35
   targetView: {fileID: 1845920795}
   waitUntilFinished: 0
 --- !u!114 &2018480209
@@ -1400,6 +1404,66 @@ MonoBehaviour:
   targetBlock: {fileID: 2018480212}
   hideIfVisited: 0
   setMenuDialog: {fileID: 0}
+--- !u!114 &2018480215
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 2036815776}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1102686585}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2018480216
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 1
+  character: {fileID: 2036815776}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  offset: 2
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 274784818}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 1
+  waitUntilFinished: 0
 --- !u!1 &2036815774
 GameObject:
   m_ObjectHideFlags: 0
