@@ -691,7 +691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: OldMen
   nameColor: {r: .207843155, g: .203921586, b: .223529428, a: 1}
-  soundEffect: {fileID: 8300000, guid: c89d9cff88a1247d3be3911553d119a2, type: 3}
+  soundEffect: {fileID: 8300000, guid: 5550d923b2bcd44e9b2448ccedb94948, type: 3}
   profileSprite: {fileID: 21300000, guid: 91e061996768a43f4b7fc54a00ba60f4, type: 3}
   portraits:
   - {fileID: 21300000, guid: 91e061996768a43f4b7fc54a00ba60f4, type: 3}
@@ -804,6 +804,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1 &1190084853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1190084854}
+  - 114: {fileID: 1190084855}
+  m_Layer: 0
+  m_Name: Child
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1190084854
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1190084853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1371988423}
+  m_RootOrder: 3
+--- !u!114 &1190084855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1190084853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Child
+  nameColor: {r: .221399218, g: .477941155, b: .2306896, a: 1}
+  soundEffect: {fileID: 8300000, guid: 01db8b34319e44cf09bbd6bb8c7694ae, type: 3}
+  profileSprite: {fileID: 21300000, guid: 720046c9097a8427298c0a9ba32f3aa6, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: 720046c9097a8427298c0a9ba32f3aa6, type: 3}
+  portraitsFace: 1
+  description: 
 --- !u!1 &1371988422
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +880,8 @@ Transform:
   - {fileID: 2036815775}
   - {fileID: 2085024487}
   - {fileID: 1054471940}
+  - {fileID: 1190084854}
+  - {fileID: 1964061794}
   m_Father: {fileID: 0}
   m_RootOrder: 5
 --- !u!1 &1469531776
@@ -917,6 +967,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &1964061792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1964061794}
+  - 114: {fileID: 1964061793}
+  m_Layer: 0
+  m_Name: Cat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1964061793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964061792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Cat
+  nameColor: {r: .470588207, g: .0622837357, b: .0759205446, a: 1}
+  soundEffect: {fileID: 8300000, guid: 5ee5047033c4341f3bc342872bc85502, type: 3}
+  profileSprite: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  portraitsFace: 1
+  description: 
+--- !u!4 &1964061794
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964061792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1371988423}
+  m_RootOrder: 4
 --- !u!1 &2018480192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1122,21 @@ GameObject:
   - 114: {fileID: 2018480292}
   - 114: {fileID: 2018480286}
   - 114: {fileID: 2018480285}
+  - 114: {fileID: 2018480293}
+  - 114: {fileID: 2018480294}
+  - 114: {fileID: 2018480296}
+  - 114: {fileID: 2018480295}
+  - 114: {fileID: 2018480297}
+  - 114: {fileID: 2018480298}
+  - 114: {fileID: 2018480300}
+  - 114: {fileID: 2018480299}
+  - 114: {fileID: 2018480301}
+  - 114: {fileID: 2018480303}
+  - 114: {fileID: 2018480302}
+  - 114: {fileID: 2018480304}
+  - 114: {fileID: 2018480305}
+  - 114: {fileID: 2018480306}
+  - 114: {fileID: 2018480307}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1043,20 +1156,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 175.572723, y: -321.434601}
+  scrollPos: {x: 197.679871, y: -43.9247437}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: .694981337
+  zoom: .57101959
   scrollViewRect:
     serializedVersion: 2
     x: -612.515869
     y: -357.642944
     width: 1914.72998
     height: 1469.2677
-  selectedBlock: {fileID: 2018480274}
+  selectedBlock: {fileID: 2018480295}
   selectedCommands:
-  - {fileID: 2018480292}
+  - {fileID: 2018480307}
   variables: []
   description: 
   stepPause: 0
@@ -1119,6 +1232,7 @@ MonoBehaviour:
   - {fileID: 2018480202}
   - {fileID: 2018480214}
   - {fileID: 2018480213}
+  - {fileID: 2018480296}
 --- !u!114 &2018480196
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1737,8 +1851,8 @@ MonoBehaviour:
   itemId: 26
   errorMessage: 
   indentLevel: 0
-  storyText: She brought no weapons, her mind was sharp enough to counter every threat
-    enough.
+  storyText: She brought a crossbow, but her mind was sharp enough to counter every
+    threat enough.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -1998,6 +2112,7 @@ MonoBehaviour:
   - {fileID: 2018480239}
   - {fileID: 2018480238}
   - {fileID: 2018480224}
+  - {fileID: 2018480293}
   - {fileID: 2018480237}
 --- !u!114 &2018480233
 MonoBehaviour:
@@ -3129,8 +3244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 547.195435
-    y: 669.400269
+    x: 604.750854
+    y: 643.500305
     width: 126
     height: 40
   itemId: 89
@@ -3140,6 +3255,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2018480283}
   - {fileID: 2018480282}
+  - {fileID: 2018480294}
   - {fileID: 2018480276}
 --- !u!114 &2018480282
 MonoBehaviour:
@@ -3226,7 +3342,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480285
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -3254,7 +3370,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480286
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -3415,7 +3531,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480292
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -3440,6 +3556,368 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &2018480293
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 107
+  errorMessage: 
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 4fa3a15cbf3c6467683cd8462daef46e, type: 3}
+  volume: .699999988
+  waitUntilFinished: 0
+--- !u!114 &2018480294
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  errorMessage: 
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 1105f252c412542db9f7642d34f727e6, type: 3}
+  volume: .800000012
+  waitUntilFinished: 0
+--- !u!114 &2018480295
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 422.436096
+    y: 98.3653946
+    width: 125
+    height: 40
+  itemId: 110
+  blockName: The_Cat_Start
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2018480297}
+  - {fileID: 2018480300}
+  - {fileID: 2018480298}
+  - {fileID: 2018480301}
+  - {fileID: 2018480299}
+  - {fileID: 2018480303}
+  - {fileID: 2018480302}
+  - {fileID: 2018480304}
+  - {fileID: 2018480305}
+  - {fileID: 2018480307}
+  - {fileID: 2018480306}
+--- !u!114 &2018480296
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  errorMessage: 
+  indentLevel: 0
+  text: There was a cat once ...
+  description: 
+  targetBlock: {fileID: 2018480295}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480297
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 1
+  character: {fileID: 1964061793}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1102686585}
+  toPosition: {fileID: 274784818}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2018480298
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  errorMessage: 
+  indentLevel: 0
+  storyText: '"You time has come, there is no way out"'
+  description: 
+  character: {fileID: 1964061793}
+  portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480299
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  errorMessage: 
+  indentLevel: 0
+  storyText: The cat starred back, not blinking an eye.
+  description: 
+  character: {fileID: 1964061793}
+  portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480300
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  errorMessage: 
+  indentLevel: 0
+  storyText: '"Meow", the cat said, "I am coming for you"'
+  description: 
+  character: {fileID: 1964061793}
+  portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480301
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 115
+  errorMessage: 
+  indentLevel: 0
+  storyText: We starred at the cat for a long time.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480302
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 117
+  errorMessage: 
+  indentLevel: 0
+  storyText: We did not see the blade, but it cut through our neck.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480303
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 116
+  errorMessage: 
+  indentLevel: 0
+  duration: 2
+  amount: {x: 1, y: 1}
+  waitUntilFinished: 0
+--- !u!114 &2018480304
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  errorMessage: 
+  indentLevel: 0
+  storyText: '"We are CAT and we are many."'
+  description: 
+  character: {fileID: 1964061793}
+  portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480305
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  errorMessage: 
+  indentLevel: 0
+  storyText: We watch over the maze.
+  description: 
+  character: {fileID: 1964061793}
+  portrait: {fileID: 21300000, guid: f10fe556c815d450597f9efd24567691, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480306
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 2018480195}
+  callMode: 0
+--- !u!114 &2018480307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 1964061793}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1102686585}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &2036815774
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,7 +4008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: BannerGirl
   nameColor: {r: .348788917, g: .303633243, b: .529411793, a: 1}
-  soundEffect: {fileID: 8300000, guid: 1a1543b7873994f51911c9766dd6d83f, type: 3}
+  soundEffect: {fileID: 8300000, guid: b8006788f7c8c47c0b7ce9a296282200, type: 3}
   profileSprite: {fileID: 21300000, guid: bebef7c4c35314920a9c229c536a777c, type: 3}
   portraits:
   - {fileID: 21300000, guid: bebef7c4c35314920a9c229c536a777c, type: 3}
