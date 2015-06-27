@@ -1165,6 +1165,7 @@ GameObject:
   - 114: {fileID: 2018480335}
   - 114: {fileID: 2018480334}
   - 114: {fileID: 2018480333}
+  - 114: {fileID: 2018480336}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1184,20 +1185,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 220.446167, y: 232.773224}
+  scrollPos: {x: 250.143066, y: -186.359161}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: .57101959
+  zoom: .829035044
   scrollViewRect:
     serializedVersion: 2
     x: -612.515869
     y: -582.773193
     width: 1914.72998
     height: 1694.39795
-  selectedBlock: {fileID: 2018480328}
+  selectedBlock: {fileID: 2018480274}
   selectedCommands:
-  - {fileID: 2018480332}
+  - {fileID: 2018480288}
   variables: []
   description: 
   stepPause: 0
@@ -1497,7 +1498,7 @@ MonoBehaviour:
   itemId: 11
   errorMessage: 
   indentLevel: 0
-  storyText: Maybe there are other, maybe there are not. We don't know.
+  storyText: Maybe there are others, maybe there are not. We don't know.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 0}
@@ -2083,8 +2084,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "The dried wood lit up nicely. We circled the camp site once and settled
-    on a low branch close to fire taking in its warm shine \u2026\nknowing well that
-    the peace wouldn\u2019t last long."
+    on a low branch close to the fire taking in its warm shine \u2026\nknowing well
+    that the peace wouldn\u2019t last long."
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -2213,7 +2214,7 @@ MonoBehaviour:
   itemId: 41
   errorMessage: 
   indentLevel: 0
-  storyText: We starred back at the creature, nodding our head in silence.
+  storyText: We stared back at the creature, nodding our head in silence.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -2421,7 +2422,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: His pilgrimage took several days but now he stood in awe before its entry.
-    He seemed to take a long time, standing perfectly quiet, but than came to a conclusion.
+    He seemed to take a long time, standing perfectly quiet, but then came to a conclusion.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -2553,8 +2554,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: His moves as he built a bed of branches and leaves showed the practice
-    he aquired in his years, but before he could lie down he heard the unmistakable
-    steps of a men nearing the mazes entry. He called out to the unknown stranger
+    he acquired in his years, but before he could lie down he heard the unmistakable
+    steps of a man nearing the maze's entry. He called out to the unknown stranger
     ...
   description: 
   character: {fileID: 2036815776}
@@ -2618,8 +2619,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 8.62057495
-    y: 502.203064
+    x: -128.845749
+    y: 506.637482
     width: 152
     height: 40
   itemId: 61
@@ -2643,8 +2644,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 29.6174774
-    y: 392.680908
+    x: -77.9165649
+    y: 391.572327
     width: 123
     height: 40
   itemId: 60
@@ -2672,8 +2673,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: The stranger turned out to be a young man. Thankfully he accepted a sip
-    of ale from his older companion, yet there say sat, not saying a word for a time
-    that seemed to last forever.
+    of ale from his older companion, yet there they sat in silence for a time that
+    seemed to last forever.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -2700,8 +2701,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "Finally the young man stood up and said:\n\u201EYou shouldn't wait,
-    you know?\u201C\_\nAnd walked with proud steps to the entranced and vanished in
-    the bowels of what was yet unknown to him."
+    you know?\u201C\_\nAnd walked with proud steps to the entrance and vanished in
+    the darkness of what was yet unknown to him."
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3020,7 +3021,7 @@ MonoBehaviour:
   itemId: 77
   errorMessage: 
   indentLevel: 0
-  storyText: The night draw darker ....
+  storyText: The night drew darker ....
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3132,6 +3133,7 @@ MonoBehaviour:
   - {fileID: 2018480289}
   - {fileID: 2018480286}
   - {fileID: 2018480285}
+  - {fileID: 2018480336}
   - {fileID: 2018480292}
   - {fileID: 2018480288}
   - {fileID: 2018480287}
@@ -3149,9 +3151,8 @@ MonoBehaviour:
   itemId: 86
   errorMessage: 
   indentLevel: 0
-  storyText: Slowly he made way every turn was greated with a new glow on his face.
-    Not by any expression of his though and he looked earily pale in the lights we
-    laid out like breadcrumps.
+  storyText: Slowly he made his way, his face brightened  by our lights. But his heart
+    was still darkened, and his face earily pale in the lights we laid out like breadcrumps.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3383,9 +3384,7 @@ MonoBehaviour:
   itemId: 106
   errorMessage: 
   indentLevel: 0
-  storyText: ' a loud crack as she had broken his neck. We don''t know what happened
-    between the two of them, but the last expression on his face was one of relief,
-    visible only briefly as the light faded with her leaving this plane.'
+  storyText: we heard a loud crack as she had broken his neck.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3412,7 +3411,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: He answered her call with his arms, but as soon as he touched her back
-    we heard ...
+    ...
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3487,7 +3486,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'At the end of the hall she waited. His face was in tears. Tears of shame,
     but he faced her, and whatever it was that he had done to her, her glowing transparent
-    body bowing down to him, embracing him. '
+    body was bowing down to him, embracing him. '
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -4437,7 +4436,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &2018480328
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4464,7 +4463,7 @@ MonoBehaviour:
   - {fileID: 2018480334}
 --- !u!114 &2018480329
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4483,7 +4482,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &2018480330
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4502,7 +4501,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &2018480331
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4531,7 +4530,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480332
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4557,7 +4556,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480333
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4583,7 +4582,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480334
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4600,7 +4599,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2018480335
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -4628,6 +4627,34 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &2018480336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 151
+  errorMessage: 
+  indentLevel: 0
+  storyText: We don't know what happened between the two of them, but the last expression
+    on his face was one of relief, visible only briefly as the light faded with her
+    leaving this plane.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!1 &2036815774
 GameObject:
   m_ObjectHideFlags: 0
