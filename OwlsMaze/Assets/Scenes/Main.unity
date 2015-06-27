@@ -922,6 +922,7 @@ GameObject:
   - 114: {fileID: 2018480237}
   - 114: {fileID: 2018480236}
   - 114: {fileID: 2018480233}
+  - 114: {fileID: 2018480240}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -952,9 +953,9 @@ MonoBehaviour:
     y: -350
     width: 1627.8186
     height: 1269.28662
-  selectedBlock: {fileID: 2018480212}
+  selectedBlock: {fileID: 2018480196}
   selectedCommands:
-  - {fileID: 2018480233}
+  - {fileID: 2018480240}
   variables: []
   description: 
   stepPause: 0
@@ -1003,7 +1004,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 249
-    y: 211
+    y: 209.759308
     width: 120
     height: 40
   itemId: 0
@@ -1040,6 +1041,7 @@ MonoBehaviour:
   eventHandler: {fileID: 2018480203}
   commandList:
   - {fileID: 2018480210}
+  - {fileID: 2018480240}
   - {fileID: 2018480209}
   - {fileID: 2018480208}
   - {fileID: 2018480197}
@@ -1359,12 +1361,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 349.739929
-    y: 315.203583
-    width: 161
+    x: 248.001465
+    y: 425.627075
+    width: 120
     height: 40
   itemId: 21
-  blockName: Head_Bowing_Guy_1
+  blockName: Old_Guy_1
   description: 
   eventHandler: {fileID: 0}
   commandList: []
@@ -1381,8 +1383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 581.017822
-    y: 174.002899
+    x: 543.796387
+    y: 190.132172
     width: 125
     height: 40
   itemId: 20
@@ -1664,7 +1666,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480224
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1886,7 +1888,7 @@ MonoBehaviour:
   - {fileID: 2018480237}
 --- !u!114 &2018480233
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1916,7 +1918,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &2018480234
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1968,7 +1970,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480236
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -1985,7 +1987,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2018480237
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -2002,7 +2004,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2018480238
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -2032,7 +2034,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &2018480239
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -2047,6 +2049,22 @@ MonoBehaviour:
   duration: .5
   amount: {x: 1, y: 1}
   waitUntilFinished: 0
+--- !u!114 &2018480240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  errorMessage: 
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 31cfe7190c5974541963d7d87eb47e9d, type: 3}
+  atTime: 0
 --- !u!1 &2036815774
 GameObject:
   m_ObjectHideFlags: 0
