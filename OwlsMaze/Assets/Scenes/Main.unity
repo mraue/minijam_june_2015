@@ -1137,6 +1137,34 @@ GameObject:
   - 114: {fileID: 2018480305}
   - 114: {fileID: 2018480306}
   - 114: {fileID: 2018480307}
+  - 114: {fileID: 2018480308}
+  - 114: {fileID: 2018480311}
+  - 114: {fileID: 2018480310}
+  - 114: {fileID: 2018480309}
+  - 114: {fileID: 2018480315}
+  - 114: {fileID: 2018480314}
+  - 114: {fileID: 2018480313}
+  - 114: {fileID: 2018480312}
+  - 114: {fileID: 2018480316}
+  - 114: {fileID: 2018480317}
+  - 114: {fileID: 2018480319}
+  - 114: {fileID: 2018480318}
+  - 114: {fileID: 2018480321}
+  - 114: {fileID: 2018480320}
+  - 114: {fileID: 2018480323}
+  - 114: {fileID: 2018480322}
+  - 114: {fileID: 2018480327}
+  - 114: {fileID: 2018480326}
+  - 114: {fileID: 2018480325}
+  - 114: {fileID: 2018480324}
+  - 114: {fileID: 2018480328}
+  - 114: {fileID: 2018480329}
+  - 114: {fileID: 2018480330}
+  - 114: {fileID: 2018480331}
+  - 114: {fileID: 2018480332}
+  - 114: {fileID: 2018480335}
+  - 114: {fileID: 2018480334}
+  - 114: {fileID: 2018480333}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1156,7 +1184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 197.679871, y: -43.9247437}
+  scrollPos: {x: 220.446167, y: 232.773224}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -1164,12 +1192,12 @@ MonoBehaviour:
   scrollViewRect:
     serializedVersion: 2
     x: -612.515869
-    y: -357.642944
+    y: -582.773193
     width: 1914.72998
-    height: 1469.2677
-  selectedBlock: {fileID: 2018480295}
+    height: 1694.39795
+  selectedBlock: {fileID: 2018480328}
   selectedCommands:
-  - {fileID: 2018480307}
+  - {fileID: 2018480332}
   variables: []
   description: 
   stepPause: 0
@@ -1233,6 +1261,7 @@ MonoBehaviour:
   - {fileID: 2018480214}
   - {fileID: 2018480213}
   - {fileID: 2018480296}
+  - {fileID: 2018480312}
 --- !u!114 &2018480196
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1246,8 +1275,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 249
-    y: 120
+    x: 80.8796997
+    y: 20.1785278
     width: 120
     height: 40
   itemId: 3
@@ -1354,8 +1383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 97.0826569
-    y: 118.366188
+    x: 16.5250092
+    y: 169.152496
     width: 120
     height: 40
   itemId: 8
@@ -3617,6 +3646,7 @@ MonoBehaviour:
   - {fileID: 2018480298}
   - {fileID: 2018480301}
   - {fileID: 2018480299}
+  - {fileID: 2018480308}
   - {fileID: 2018480303}
   - {fileID: 2018480302}
   - {fileID: 2018480304}
@@ -3637,7 +3667,7 @@ MonoBehaviour:
   itemId: 109
   errorMessage: 
   indentLevel: 0
-  text: There was a cat once ...
+  text: There once was a cat  ...
   description: 
   targetBlock: {fileID: 2018480295}
   hideIfVisited: 0
@@ -3890,7 +3920,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2018480307
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -3905,6 +3935,686 @@ MonoBehaviour:
   stage: {fileID: 0}
   display: 2
   character: {fileID: 1964061793}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1102686585}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2018480308
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  errorMessage: 
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 0c6ba11d669da458bb38bdd45eb7b85b, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &2018480309
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  errorMessage: 
+  indentLevel: 0
+  storyText: Looking around it saw that it would be difficult to navigate that mace,
+    espacially as propably every corner had to be examined.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480310
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  errorMessage: 
+  indentLevel: 0
+  storyText: The child moved on. She was told that was here its toys were hidden.
+    Little did it know that its siblings planned to get rid of it. To much envy, simple
+    mischief, who are we to know?
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480311
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 260.362
+    y: 85.1685181
+    width: 120
+    height: 40
+  itemId: 123
+  blockName: Child_Start
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2018480318}
+  - {fileID: 2018480310}
+  - {fileID: 2018480309}
+  - {fileID: 2018480315}
+  - {fileID: 2018480316}
+--- !u!114 &2018480312
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  errorMessage: 
+  indentLevel: 0
+  text: A child ...
+  description: 
+  targetBlock: {fileID: 2018480311}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480313
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 237.595947
+    y: -40.9217072
+    width: 122
+    height: 40
+  itemId: 128
+  blockName: Child_Thread
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2018480323}
+  - {fileID: 2018480322}
+  - {fileID: 2018480327}
+  - {fileID: 2018480325}
+--- !u!114 &2018480314
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 426.73114
+    y: -.643005371
+    width: 120
+    height: 40
+  itemId: 127
+  blockName: Child_Bread
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2018480317}
+  - {fileID: 2018480319}
+  - {fileID: 2018480321}
+  - {fileID: 2018480320}
+--- !u!114 &2018480315
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  errorMessage: 
+  indentLevel: 0
+  text: '... so it took its leftover bread and teared little peaces from it, leaving
+    some every corner it finds.'
+  description: 
+  targetBlock: {fileID: 2018480314}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480316
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  errorMessage: 
+  indentLevel: 0
+  text: '... so it teared a thread from its trousers and tight it to a root near the
+    entrance.'
+  description: 
+  targetBlock: {fileID: 2018480313}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480317
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 131
+  errorMessage: 
+  indentLevel: 0
+  storyText: After a while it noticed a funny sounds from behind it. The Child slowly
+    turned around, only to scream im Horror. Thousands of fireants had followed the
+    breadcrump trail and catched up so fast that it hadn't stop screaming when they
+    cought up to it.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480318
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 1
+  character: {fileID: 1190084855}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 720046c9097a8427298c0a9ba32f3aa6, type: 3}
+  offset: 2
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 274784818}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 1
+  waitUntilFinished: 0
+--- !u!114 &2018480319
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  errorMessage: 
+  indentLevel: 0
+  storyText: It didn't stop until its mouth and toung were eaten away by the tiny
+    beasts.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480320
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 2018480195}
+  callMode: 0
+--- !u!114 &2018480321
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 1190084855}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1102686585}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveSpeed: 0
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2018480322
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  errorMessage: 
+  indentLevel: 0
+  storyText: '"You may be the first to leave, you know?"'
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480323
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  errorMessage: 
+  indentLevel: 0
+  storyText: The child hadn't yet managed to get even a quarter of the mazes rooms
+    when it ran out of trousers. It was already deep in the maze, further than most
+    and that was when we finaly spoke to it.
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480324
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  errorMessage: 
+  indentLevel: 0
+  storyText: '"Turn around child! Follow the string you left, don''t go right, don''t
+    go left. We are the olws of old, known to be wise."'
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480325
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 140
+  errorMessage: 
+  indentLevel: 0
+  text: "\u201EWho are you?\u201C "
+  description: 
+  targetBlock: {fileID: 2018480326}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480326
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 297.138428
+    y: -147.748154
+    width: 146
+    height: 40
+  itemId: 139
+  blockName: Child_Continue_1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2018480324}
+  - {fileID: 2018480329}
+  - {fileID: 2018480330}
+--- !u!114 &2018480327
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  errorMessage: 
+  indentLevel: 0
+  text: " \u201EBut I haven't found my toys.\u201C "
+  description: 
+  targetBlock: {fileID: 2018480326}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 85.2368164
+    y: -133.738129
+    width: 146
+    height: 40
+  itemId: 142
+  blockName: Child_Continue_2
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2018480331}
+  - {fileID: 2018480332}
+  - {fileID: 2018480333}
+  - {fileID: 2018480335}
+  - {fileID: 2018480334}
+--- !u!114 &2018480329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  errorMessage: 
+  indentLevel: 0
+  text: " \u201EWhat would happen to me if I stay with you?\u201C"
+  description: 
+  targetBlock: {fileID: 2018480328}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  errorMessage: 
+  indentLevel: 0
+  text: '"I cannot leave my toys behind."'
+  description: 
+  targetBlock: {fileID: 2018480328}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &2018480331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  errorMessage: 
+  indentLevel: 0
+  storyText: "\u201EIf you stay you'll fade, forgotten like everyone who ever entered,
+    we cannot tell you what will happen to you?\u201C Yet the child made no move.
+    Than suddenly it went on, deeper into the maze than even before, until we lost
+    sight.\n\n"
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  errorMessage: 
+  indentLevel: 0
+  storyText: '...'
+  description: 
+  character: {fileID: 1190084855}
+  portrait: {fileID: 21300000, guid: 720046c9097a8427298c0a9ba32f3aa6, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  errorMessage: 
+  indentLevel: 0
+  storyText: "\u201EAnd we welcomed a new sister.\u201C"
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 2018480195}
+  callMode: 0
+--- !u!114 &2018480335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 148
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 2
+  character: {fileID: 1190084855}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
