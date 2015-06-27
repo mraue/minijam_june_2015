@@ -1015,14 +1015,15 @@ GameObject:
   - 114: {fileID: 2018480282}
   - 114: {fileID: 2018480276}
   - 114: {fileID: 2018480284}
-  - 114: {fileID: 2018480285}
-  - 114: {fileID: 2018480286}
   - 114: {fileID: 2018480289}
   - 114: {fileID: 2018480288}
   - 114: {fileID: 2018480287}
   - 114: {fileID: 2018480291}
   - 114: {fileID: 2018480290}
   - 114: {fileID: 2018480263}
+  - 114: {fileID: 2018480292}
+  - 114: {fileID: 2018480286}
+  - 114: {fileID: 2018480285}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1042,19 +1043,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 189.961639, y: -39.4126892}
+  scrollPos: {x: 175.572723, y: -321.434601}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: .59897542
+  zoom: .694981337
   scrollViewRect:
     serializedVersion: 2
     x: -612.515869
     y: -357.642944
     width: 1914.72998
     height: 1469.2677
-  selectedBlock: {fileID: 0}
-  selectedCommands: []
+  selectedBlock: {fileID: 2018480274}
+  selectedCommands:
+  - {fileID: 2018480292}
   variables: []
   description: 
   stepPause: 0
@@ -1840,7 +1842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 659.190247
+    x: 722.631897
     y: 377.548187
     width: 169
     height: 40
@@ -2927,8 +2929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 485.676086
-    y: 599.053955
+    x: 342.097534
+    y: 587.36731
     width: 136
     height: 40
   itemId: 82
@@ -2983,9 +2985,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 2018480275}
   - {fileID: 2018480284}
-  - {fileID: 2018480285}
-  - {fileID: 2018480286}
   - {fileID: 2018480289}
+  - {fileID: 2018480286}
+  - {fileID: 2018480285}
+  - {fileID: 2018480292}
   - {fileID: 2018480288}
   - {fileID: 2018480287}
 --- !u!114 &2018480275
@@ -3223,7 +3226,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480285
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -3232,10 +3235,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 96
+  itemId: 106
   errorMessage: 
   indentLevel: 0
-  storyText: The room ...
+  storyText: ' a loud crack as she had broken his neck. We don''t know what happened
+    between the two of them, but the last expression on his face was one of relief,
+    visible only briefly as the light faded with her leaving this plane.'
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3249,7 +3254,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2018480286
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018480192}
@@ -3258,17 +3263,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 97
+  itemId: 105
   errorMessage: 
   indentLevel: 0
-  storyText: empty.
+  storyText: He answered her call with his arms, but as soon as he touched her back
+    we heard ...
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 1
+  extendPrevious: 0
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
@@ -3334,8 +3340,9 @@ MonoBehaviour:
   itemId: 98
   errorMessage: 
   indentLevel: 0
-  storyText: At the horizon the first glimpse of dawn, he found himself in the middle
-    of the maze.
+  storyText: 'At the end of the hall she waited. His face was in tears. Tears of shame,
+    but he faced her, and whatever it was that he had done to her, her glowing transparent
+    body bowing down to him, embracing him. '
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
@@ -3395,6 +3402,33 @@ MonoBehaviour:
     and the old man looked puzzled at a fully armored worrier running at him. The
     puzzlement didn't last long though and his final thoughts was how he now forever
     lost the chance of entering the maze."
+  description: 
+  character: {fileID: 2036815776}
+  portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2018480292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  errorMessage: 
+  indentLevel: 0
+  storyText: At the horizon the first glimpse of dawn, he found himself dead in the
+    middle of the maze.
   description: 
   character: {fileID: 2036815776}
   portrait: {fileID: 21300000, guid: 1b1c432bf625c4a79baf7c7e7e69f9f7, type: 3}
