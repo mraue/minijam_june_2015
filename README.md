@@ -1,3 +1,5 @@
+![Tales from the Maze // Logo by Sjors (@bekokstover)](https://github.com/mraue/minijam_june_2015/blob/master/images/TalesFromTheMaze_Logo2_small.png)
+
 # Tales from the Maze
 
 Game created for the [Berlin Mini Game Jam](http://www.berlinminijam.de/) June 2015
@@ -6,15 +8,11 @@ Game created for the [Berlin Mini Game Jam](http://www.berlinminijam.de/) June 2
 
 ## Contributors
 
-Almut (@almutschwacke) - Music
-
-Martin (@_rmrtn) - Narration, Coding
-
-Nomi (@the_nomi) - Sound FX
-
-Sarah (@saraharoyce) - Narration
-
-Sjors (@bekokstover) - Art
+Almut (@almutschwacke) - Music  
+Martin (@_rmrtn) - Narration, Coding  
+Nomi (@the_nomi) - Sound FX  
+Sarah (@saraharoyce) - Narration  
+Sjors (@bekokstover) - Art  
 
 with additional Sound FX by Christiaan (@chrisjan00)
 
